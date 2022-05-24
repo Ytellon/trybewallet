@@ -1,0 +1,39 @@
+.container {
+  align-items: center;
+  background-color: rgb(163, 177, 138);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  width: 100%;
+}
+
+.wallet {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.currency {
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.wallet h1 {
+  font-weight: 600;
+}
+
+@media ( max-width : 667px ) and ( min-width : 375px ) {
+
+  .wallet {
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+}

@@ -1,9 +1,11 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { PencilSimpleLine, Trash } from 'phosphor-react';
 import Header from '../Components/Header';
 import { fetchWallet, removedExpense } from '../actions/index';
 import Form from '../Components/Form';
+import style from '../styles/wallet.module.css';
 
 class Wallet extends React.Component {
   componentDidMount() {
@@ -19,14 +21,13 @@ class Wallet extends React.Component {
   render() {
     const { expenses } = this.props;
     return (
-      <div>
-        <div>TrybeWallet!</div>
+      <div className={ style.containerHeader }>
         <Header />
         <Form />
         <div>
-          <table>
-            <thead>
-              <tr>
+          <table className={ style.tableWallet }>
+            <thead className={ style.theadWallet }>
+              <tr className={ style.trWallet }>
                 {[
                   'Descrição',
                   'Tag',
@@ -42,11 +43,11 @@ class Wallet extends React.Component {
                 ))}
               </tr>
             </thead>
-            <tbody>
+            <tbody className={ style.tbody }>
               {expenses.map((expense) => {
                 const nameExchange = expense.exchangeRates[expense.currency];
                 return (
-                  <tr key={ expense.id }>
+                  <tr tbody className={ style.tr } key={ expense.id }>
                     <td>{expense.description}</td>
                     <td>{expense.tag}</td>
                     <td>{expense.method}</td>
@@ -58,13 +59,16 @@ class Wallet extends React.Component {
                     </td>
                     <td>Real</td>
                     <td>
-                      <button type="button">Adicionar</button>
+                      <button className={ style.tdButton } type="button">
+                        <PencilSimpleLine size={ 20 } />
+                      </button>
                       <button
+                        className={ style.tdButton }
                         onClick={ () => this.handleClick(expense) }
                         data-testid="delete-btn"
                         type="button"
                       >
-                        Excluir
+                        <Trash size={ 20 } />
                       </button>
                     </td>
                   </tr>

@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { CurrencyDollarSimple, Wallet, CreditCard } from 'phosphor-react';
+import style from '../styles/header.module.css';
 
 class Header extends React.Component {
   render() {
@@ -12,10 +14,18 @@ class Header extends React.Component {
       }, 0,
     );
     return (
-      <header>
-        <div data-testid="email-field">{email}</div>
-        <div data-testid="total-field">{ totalExpenses.toFixed(2) }</div>
-        <div data-testid="header-currency-field">BRL</div>
+      <header className={ style.container }>
+        <div className={ style.wallet }>
+          <h1>TrybeWallet</h1>
+          <Wallet size={ 45 } />
+        </div>
+        <div className={ style.currency }>
+          <p data-testid="email-field">{email}</p>
+          <p data-testid="total-field">{ totalExpenses.toFixed(2) }</p>
+          <p data-testid="header-currency-field">BRL</p>
+          <CurrencyDollarSimple size={ 35 } />
+          <CreditCard size={ 35 } />
+        </div>
       </header>
     );
   }

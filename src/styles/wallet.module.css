@@ -1,0 +1,71 @@
+.containerHeader {
+  width: 100%;
+}
+
+.tableWallet {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.theadWallet {
+  background-color: rgb(218, 215, 205);
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.tbody {
+  text-align: center;
+  width: 100%;
+}
+
+.tr {
+  background-color: rgb(218, 215, 205);
+}
+
+.tdButton {
+  background-color: rgb(218, 215, 205);
+  border: 1px solid black;
+  border-radius: 10px;
+  color: rgb(52, 78, 65);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 4px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tdButton:hover {
+  background-color: rgb(52, 78, 65);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+@media ( max-width : 667px ) and ( min-width : 375px ) {
+
+  .tdButton {
+    background-color: rgb(218, 215, 205);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(52, 78, 65);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .tdButton:hover {
+    background-color: rgb(52, 78, 65);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+
+  .trWallet {
+    display: flex;
+    flex-direction: column;
+  }
+}

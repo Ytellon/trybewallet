@@ -44,18 +44,19 @@
   align-items: center;
   background-color: rgb(163, 177, 138);
   border-radius: 20px;
-  width: 60%;
+  height: 70%;
+  width: 70%;
   padding: 30px 35px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
 
 .cardLogin h1 {
   font-size: 2.5rem;
-  font-weight: bold;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .formLogin input {
@@ -78,7 +79,7 @@
   border-radius: 10px;
   padding: 15px;
   outline: none;
-  color: rgb(0, 0, 0);
+  color: black;
   background: rgb(58, 90, 64);
   box-shadow: 0 0.5rem 1rem rgba(99, 94, 94, 0.5);
   cursor: pointer;
@@ -93,3 +94,24 @@
   background: rgb(58, 90, 64, 0.5);
   cursor: not-allowed;
 }
+
+@media screen and ( min-width : 375px ) and ( max-width : 667px ) {
+
+  .leftLogin img {
+    display: none;
+  }
+
+  .leftLogin {
+    box-sizing: border-box;
+    width: 0;
+  }
+
+  .rightLogin {
+    width: 100vw;
+  }
+
+  .cardLogin {
+    width: 90%;
+  }
+}
+

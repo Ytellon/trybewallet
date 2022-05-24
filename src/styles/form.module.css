@@ -1,0 +1,113 @@
+.form {
+  align-items: center;
+  background-color: rgb(88, 129, 87);
+  color: white;
+  display: flex;
+  font-weight: 600;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.form label {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  gap: 10px;
+}
+
+.form label input {
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 5px;
+  width: 100px;
+}
+
+.form label select {
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 5px;
+  width: 160px;
+}
+
+.button {
+  align-items: center;
+  background-color: rgb(163, 177, 138);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.5);
+  color: black;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  justify-content: center;
+  outline: none;
+  width: 25%;
+}
+
+.button:hover {
+  background-color: rgb(52, 78, 65);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+@media ( max-width : 667px ) and ( min-width : 375px ) {
+
+  .form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form label {
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  .form label input {
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 5px;
+    width: 100px;
+  }
+
+  .form label select {
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 5px;
+    width: 160px;
+  }
+
+  .button {
+    align-items: center;
+    background-color: rgb(163, 177, 138);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.5);
+    color: black;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 600;
+    justify-content: center;
+    outline: none;
+    width: 90%;
+  }
+
+  .button:hover {
+    background-color: rgb(52, 78, 65);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+}

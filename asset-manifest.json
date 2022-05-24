@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/trybewallet/static/css/main.d910602a.chunk.css",
-    "main.js": "/trybewallet/static/js/main.63877f60.chunk.js",
-    "main.js.map": "/trybewallet/static/js/main.63877f60.chunk.js.map",
+    "main.css": "/trybewallet/static/css/main.f0265628.chunk.css",
+    "main.js": "/trybewallet/static/js/main.bf8695b4.chunk.js",
+    "main.js.map": "/trybewallet/static/js/main.bf8695b4.chunk.js.map",
     "runtime-main.js": "/trybewallet/static/js/runtime-main.ec83dc77.js",
     "runtime-main.js.map": "/trybewallet/static/js/runtime-main.ec83dc77.js.map",
-    "static/js/2.6aacd6fb.chunk.js": "/trybewallet/static/js/2.6aacd6fb.chunk.js",
-    "static/js/2.6aacd6fb.chunk.js.map": "/trybewallet/static/js/2.6aacd6fb.chunk.js.map",
+    "static/js/2.28d25137.chunk.js": "/trybewallet/static/js/2.28d25137.chunk.js",
+    "static/js/2.28d25137.chunk.js.map": "/trybewallet/static/js/2.28d25137.chunk.js.map",
     "index.html": "/trybewallet/index.html",
-    "precache-manifest.2c87e7fe05ff6d6dc9bdda578364ac82.js": "/trybewallet/precache-manifest.2c87e7fe05ff6d6dc9bdda578364ac82.js",
+    "precache-manifest.fd42aad2f995fa9023892adfa1341def.js": "/trybewallet/precache-manifest.fd42aad2f995fa9023892adfa1341def.js",
     "service-worker.js": "/trybewallet/service-worker.js",
-    "static/css/main.d910602a.chunk.css.map": "/trybewallet/static/css/main.d910602a.chunk.css.map",
-    "static/js/2.6aacd6fb.chunk.js.LICENSE.txt": "/trybewallet/static/js/2.6aacd6fb.chunk.js.LICENSE.txt",
-    "static/js/main.63877f60.chunk.js.LICENSE.txt": "/trybewallet/static/js/main.63877f60.chunk.js.LICENSE.txt",
+    "static/css/main.f0265628.chunk.css.map": "/trybewallet/static/css/main.f0265628.chunk.css.map",
+    "static/js/2.28d25137.chunk.js.LICENSE.txt": "/trybewallet/static/js/2.28d25137.chunk.js.LICENSE.txt",
+    "static/js/main.bf8695b4.chunk.js.LICENSE.txt": "/trybewallet/static/js/main.bf8695b4.chunk.js.LICENSE.txt",
     "static/media/womanImg.svg": "/trybewallet/static/media/womanImg.ab282aff.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ec83dc77.js",
-    "static/js/2.6aacd6fb.chunk.js",
-    "static/css/main.d910602a.chunk.css",
-    "static/js/main.63877f60.chunk.js"
+    "static/js/2.28d25137.chunk.js",
+    "static/css/main.f0265628.chunk.css",
+    "static/js/main.bf8695b4.chunk.js"
   ]
 }

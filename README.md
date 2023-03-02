@@ -32,7 +32,7 @@ O desafio deste projeto era de desenvolver uma carteira de controle de gastos co
 Clone o repositório em uma pasta de preferência
 
 ```
-git clone git@github.com:leonanfecosta/wallet.git
+git clone git@github.com:ytellon/trybewallet.git
 ```
 
 Entre na pasta que você acabou de clonar, e instale as dependencias

@@ -1,5 +1,5 @@
 # Trybe Wallet
-###### by _[Leonan Costa](https://www.linkedin.com/in/leonanfecosta/)_
+###### by _[Leonan Costa](https://www.linkedin.com/in/ytellon/)_
 
 ## :page_with_curl: Sobre
 O desafio deste projeto era de desenvolver uma carteira de controle de gastos com conversor de moedas, e ao utilizar essa aplicação um usuário deverá ser capaz de:
